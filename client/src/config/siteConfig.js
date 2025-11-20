@@ -1,7 +1,7 @@
 /**
  * Site Configuration
  * This file contains all configurable content for the website
- * Last updated: 2025-11-20T19:33:57.889Z
+ * Last updated: 2025-11-20T19:40:01.641Z
  */
 
 // contactInfo configuration
@@ -261,13 +261,12 @@ export const homeShowcaseSections = [
 export const neighborhood = {
   name: "Chestnut Hill",
   city: "London",
-  description: "Chestnut Hill is a leafy neighbourhood known for tree-lined streets, grand estates and easy access to green spaces. Residents enjoy Chestnuts Park with an outdoor gym, tennis courts, basketball areas and an on-site café, plus a vibrant shopping and dining scene along Germantown Avenue. The area also benefits from proximity to London's world-class museums and several iconic attractions.",
+  description: "Chestnut Hill blends leafy, tree-lined streets and grand estates with a lively retail corridor. The neighbourhood features Chestnuts Park — complete with an outdoor gym, tennis courts, basketball areas and a café — and a vibrant shopping and dining scene with over 200 specialty shops and restaurants along Germantown Avenue. Residents also benefit from access to London's world-class museums including the Natural History Museum and Science Museum and proximity to iconic attractions such as Hyde Park and Buckingham Palace.",
   highlights: [
     "Tree-lined streets and grand estates perfect for leisurely strolls",
     "Over 200 specialty shops and restaurants along Germantown Avenue",
-    "Chestnuts Park — outdoor gym, tennis courts, basketball areas and a café",
-    "Access to London's Natural History Museum and Science Museum",
-    "Close to iconic London attractions including Hyde Park, Buckingham Palace and the Royal Albert Hall"
+    "Vibrant local culture with a mix of independent boutiques and eateries",
+    "Scenic parks and green spaces ideal for outdoor relaxation and recreation"
   ]
 };
 
