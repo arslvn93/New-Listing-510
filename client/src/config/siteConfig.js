@@ -1,7 +1,7 @@
 /**
  * Site Configuration
  * This file contains all configurable content for the website
- * Last updated: 2025-11-20T19:40:01.641Z
+ * Last updated: 2025-11-20T19:42:35.742Z
  */
 
 // contactInfo configuration
@@ -258,6 +258,7 @@ export const homeShowcaseSections = [
   }
 ];
 
+// neighborhood configuration (drives NeighborhoodOverview descriptive copy)
 export const neighborhood = {
   name: "Chestnut Hill",
   city: "London",
@@ -274,45 +275,59 @@ export const neighborhood = {
 export const neighborhoodAmenities = [
   {
     id: 1,
-    name: "Local Grocery Store",
-    distance: "0.2 miles",
+    name: "Germantown Avenue shopping & specialty shops",
+    distance: "",
     category: "shopping",
     icon: "ShoppingBag"
   },
   {
     id: 2,
-    name: "Nearby Park",
-    distance: "0.1 miles", 
+    name: "Chestnuts Park (outdoor gym, tennis courts, basketball & café)",
+    distance: "",
     category: "recreation",
     icon: "Leaf"
   },
   {
     id: 3,
-    name: "Public School",
-    distance: "0.6 miles",
-    category: "education", 
+    name: "Natural History Museum",
+    distance: "",
+    category: "education",
     icon: "School"
   },
   {
     id: 4,
-    name: "Fine Dining",
-    distance: "0.2 miles",
+    name: "Kashmir Grill",
+    distance: "",
     category: "dining",
-    icon: "Wine"
+    icon: "Coffee"
   },
   {
     id: 5,
-    name: "Casual Dining",
-    distance: "0.4 miles",
+    name: "Robowok",
+    distance: "",
     category: "dining",
     icon: "Utensils"
   },
   {
     id: 6,
-    name: "Transit Station",
-    distance: "0.4 miles",
+    name: "Commissioners at Chestnut Hill 2 SB - #2534 (Bus stop)",
+    distance: "",
     category: "transportation",
-    icon: "Train"
+    icon: "Car"
+  },
+  {
+    id: 7,
+    name: "Springbank Park",
+    distance: "",
+    category: "recreation",
+    icon: "Users"
+  },
+  {
+    id: 8,
+    name: "Germantown Avenue retail corridor (over 200 specialty shops & restaurants)",
+    distance: "",
+    category: "business",
+    icon: "Wifi"
   }
 ];
 
@@ -321,34 +336,26 @@ export const neighborhoodStats = [
   {
     id: 1,
     title: "Walk Score",
-    value: "95/100",
-    caption: "Walker's Paradise",
+    value: "35/100",
+    caption: "Car-Dependent",
     icon: "BadgeCheck",
     color: "bg-green-500"
   },
   {
     id: 2,
-    title: "Transit Score", 
-    value: "94/100",
-    caption: "Excellent Transit",
+    title: "Transit Score",
+    value: "35/100",
+    caption: "Some Transit",
     icon: "Compass",
     color: "bg-blue-500"
   },
   {
     id: 3,
-    title: "School Rating",
-    value: "8/10", 
-    caption: "Great Schools",
-    icon: "School",
+    title: "Bike Score",
+    value: "44/100",
+    caption: "Somewhat Bikeable",
+    icon: "Compass",
     color: "bg-indigo-500"
-  },
-  {
-    id: 4,
-    title: "Commute Time",
-    value: "8 min",
-    caption: "To Financial District",
-    icon: "Clock", 
-    color: "bg-amber-500"
   }
 ];
 
